@@ -1,19 +1,14 @@
-name: success_client
-description: Flutter web + mobile starter for Success Backend
-publish_to: "none"
+name: my_flutter_web_app
+description: Flutter web app for Render deployment
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.6
-  provider: ^6.0.5
-  flutter_secure_storage: ^8.0.0
-  flutter_dotenv: ^5.0.2
-  cupertino_icons: ^1.0.5
+  flutter_dotenv: ^5.0.2   # For environment variables
 
 dev_dependencies:
   flutter_test:
